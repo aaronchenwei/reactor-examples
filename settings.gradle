@@ -8,3 +8,4 @@
  */
 
 rootProject.name = 'learning-reactor'
+include 'learn-reactor-core'
