@@ -4,9 +4,9 @@ import io.eddumelendez.reactorkotlin.domain.User
 import io.eddumelendez.reactorkotlin.repository.BlockingRepository
 import io.eddumelendez.reactorkotlin.repository.BlockingUserRepository
 import io.eddumelendez.reactorkotlin.repository.ReactiveUserRepository
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertFalse
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Test
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 import reactor.kotlin.test.test
@@ -17,7 +17,7 @@ class Part11BlockingToReactive {
     fun slowPublisherFastSubscriber() {
         val repository = BlockingUserRepository()
         val flux = blockingRepositoryToFlux(repository)
-        assertEquals("The call to findAll must be deferred until the flux is subscribed", 0, repository.callCount)
+        assertEquals(0, repository.callCount, "The call to findAll must be deferred until the flux is subscribed")
         flux.test()
                 .expectNext(User.SKYLER, User.JESSE, User.WALTER, User.SAUL)
                 .verifyComplete()

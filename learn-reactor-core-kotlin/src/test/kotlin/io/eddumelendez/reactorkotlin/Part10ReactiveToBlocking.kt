@@ -2,9 +2,9 @@ package io.eddumelendez.reactorkotlin
 
 import io.eddumelendez.reactorkotlin.domain.User
 import io.eddumelendez.reactorkotlin.repository.ReactiveUserRepository
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertFalse
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Test
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
