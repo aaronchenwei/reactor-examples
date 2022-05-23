@@ -9,3 +9,4 @@
 
 rootProject.name = 'learning-reactor'
 include 'learn-reactor-core'
+include 'learn-reactor-core-kotlin'
