@@ -2,7 +2,7 @@ package io.eddumelendez.reactorkotlin
 
 import io.eddumelendez.reactorkotlin.domain.User
 import io.eddumelendez.reactorkotlin.repository.ReactiveUserRepository
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import reactor.core.publisher.Flux
 import reactor.test.StepVerifier
 import reactor.kotlin.test.test

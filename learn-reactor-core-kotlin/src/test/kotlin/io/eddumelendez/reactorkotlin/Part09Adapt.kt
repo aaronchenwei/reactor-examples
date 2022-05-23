@@ -2,10 +2,10 @@ package io.eddumelendez.reactorkotlin
 
 import io.eddumelendez.reactorkotlin.domain.User
 import io.eddumelendez.reactorkotlin.repository.ReactiveUserRepository
-import io.reactivex.Flowable
-import io.reactivex.Observable
-import io.reactivex.Single
-import org.junit.Test
+import io.reactivex.rxjava3.core.Flowable
+import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.core.Single
+import org.junit.jupiter.api.Test
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 import reactor.kotlin.test.test
