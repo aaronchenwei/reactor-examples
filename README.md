@@ -1,2 +1,3 @@
-# learning-reactor
-Examples for learning to use Reactor
+# reactor-examples
+
+Examples for how to use [Project Reactor](https://projectreactor.io/).
