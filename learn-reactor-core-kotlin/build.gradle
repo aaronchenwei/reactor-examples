@@ -23,7 +23,7 @@ dependencies {
     implementation 'io.projectreactor:reactor-test'
     implementation 'io.projectreactor.kotlin:reactor-kotlin-extensions'
 
-    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.6'
 
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
